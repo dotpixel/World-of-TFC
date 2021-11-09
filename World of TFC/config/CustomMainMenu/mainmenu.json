@@ -1,0 +1,140 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:textures/wotfclogo.png",
+            "posX" : -160,
+            "posY" : 30,
+            "width" : 318,
+            "height" : 62,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "playoffline":
+        {
+            "text" : "Play offline",
+            "posX" : -80,
+            "posY" : 58,
+            "width" : 160,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "playonline":
+        {
+            "text" : "Play online",
+            "posX" : -80,
+            "posY" : 82,
+            "width" : 160,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "discord": {
+            "text": "Discord",
+            "posX": -80,
+            "posY": 106,
+            "width": 160,
+            "height": 20,
+            "action":
+            {
+                "type": "openLink",
+                "link": "https://discord.gg/sryAGyqx5V"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Options",
+            "posX" : -80,
+            "posY" : 130,
+            "width" : 78,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 130,
+            "width" : 78,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "Language",
+            "posX" : -105,
+            "posY" : 130,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+        
+        //"refresh":
+        //{
+        //    "text" : "",
+        //    "posX" : -130,
+        //    "posY" : 130,
+        //    "width" : 20,
+        //    "height" : 20,
+        //    "texture" : "custommainmenu:textures/gui/buttons.png",
+        //    "action" : 
+        //    {
+        //        "type" : "refresh"
+        //    }
+        //}
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Modpack by RainY",
+            "hoverText" : "§nModpack by RainY",
+            "posX" : -42,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.curseforge.com/members/rainy_code"
+            }
+        }
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "mainmenu:textures/background.png",
+            "mode" : "fill"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+import mods.terrafirmacraft.ItemRegistry;
+
+ItemRegistry.registerItemSize(<astikorcarts:cargocart>, "VERY_LARGE", "VERY_HEAVY");
+ItemRegistry.registerItemSize(<astikorcarts:mobcart>, "VERY_LARGE", "VERY_HEAVY");
+ItemRegistry.registerItemSize(<astikorcarts:plowcart>, "VERY_LARGE", "VERY_HEAVY");
+ItemRegistry.registerItemSize(<minecraft:cooked_fish:*>, "SMALL", "VERY_LIGHT");
+ItemRegistry.registerItemSize(<minecraft:fish:*>, "SMALL", "VERY_LIGHT");
+ItemRegistry.registerItemSize(<rustic:barrel>, "VERY_LARGE", "VERY_HEAVY");
+ItemRegistry.registerItemSize(<rustic:brewing_barrel>, "VERY_LARGE", "VERY_HEAVY");
+ItemRegistry.registerItemSize(<rustic:cabinet>, "LARGE", "LIGHT");
+ItemRegistry.registerItemSize(<rustic:chili_pepper>, "SMALL", "VERY_LIGHT");
+ItemRegistry.registerItemSize(<rustic:cloudsbluff>, "SMALL", "VERY_LIGHT");
+ItemRegistry.registerItemSize(<rustic:condenser>, "LARGE", "MEDIUM");
+ItemRegistry.registerItemSize(<rustic:condenser_advanced>, "LARGE", "MEDIUM");
+ItemRegistry.registerItemSize(<rustic:core_root>, "SMALL", "VERY_LIGHT");
+ItemRegistry.registerItemSize(<rustic:ginseng>, "SMALL", "VERY_LIGHT");
+ItemRegistry.registerItemSize(<rustic:grapes>, "SMALL", "VERY_LIGHT");
+ItemRegistry.registerItemSize(<rustic:ironberries>, "SMALL", "VERY_LIGHT");
+ItemRegistry.registerItemSize(<rustic:liquid_barrel>, "VERY_LARGE", "VERY_HEAVY");
+ItemRegistry.registerItemSize(<rustic:marsh_mallow>, "SMALL", "VERY_LIGHT");
+ItemRegistry.registerItemSize(<rustic:retort>, "NORMAL", "MEDIUM");
+ItemRegistry.registerItemSize(<rustic:retort_advanced>, "NORMAL", "MEDIUM");
+ItemRegistry.registerItemSize(<rustic:wildberries>, "SMALL", "VERY_LIGHT");
